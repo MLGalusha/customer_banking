@@ -33,7 +33,6 @@ This file defines the base `Account` class, which serves as a template for diffe
 - Initializes an account with a balance and interest rate
 - Provides methods to set balance and interest
 
-**Code snippet:**
 ```python
 class Account:
     def __init__(self, balance, interest):
