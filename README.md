@@ -11,11 +11,11 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 
-## 🌟 Overview
+## 🌟 **Overview**
 
 This project implements a simple banking system that allows users to create and manage savings and CD (Certificate of Deposit) accounts. It demonstrates object-oriented programming principles and modular design in Python.
 
-## 📂 File Structure
+## 📂 **File Structure**
 ```python
 banking_system/
 │
@@ -25,7 +25,7 @@ banking_system/
 └── customer_banking.py
 ```
 
-## 🔍 Detailed Explanation
+## 🔍 **Detailed Explanation**
 
 ### account.py
 
@@ -108,7 +108,7 @@ if __name__ == "__main__":
     main()
 ```
 
-### 🚀 Usage
+### 🚀 **Usage**
 
 To use this banking system:
 
