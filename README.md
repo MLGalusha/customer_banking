@@ -16,12 +16,14 @@
 This project implements a simple banking system that allows users to create and manage savings and CD (Certificate of Deposit) accounts. It demonstrates object-oriented programming principles and modular design in Python.
 
 ## 📂 File Structure
+```python
 banking_system/
 │
 ├── account.py
 ├── cd_account.py
 ├── savings_account.py
 └── customer_banking.py
+```
 
 ## 🔍 Detailed Explanation
 
