@@ -2,7 +2,7 @@
 
 ## 📚 Table of Contents
 - [Overview](#-overview)
-- [File Structure](-file-structure)
+- [File Structure](#-file-structure)
 - [Detailed Explanation](#-detailed-explanation)
   - [account.py](#accountpy)
   - [cd_account.py](#cd_accountpy)
@@ -10,9 +10,13 @@
   - [customer_banking.py](#customer_bankingpy)
 - [Usage](#-usage)
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## 🌟 **Overview**
 
 This project implements a simple banking system that allows users to create and manage savings and CD (Certificate of Deposit) accounts. It demonstrates object-oriented programming principles and modular design in Python.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 📂 **File Structure**
 ```python
@@ -23,6 +27,8 @@ banking_system/
 ├── savings_account.py
 └── customer_banking.py
 ```
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 🔍 **Detailed Explanation**
 
@@ -46,6 +52,9 @@ class Account:
     def set_interest(self, interest):
         self.interest = interest
 ```
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### cd_account.py
 
 This file contains the `create_cd_account` function, which creates a CD account and calculates interest.
@@ -65,6 +74,9 @@ def create_cd_account(balance, interest_rate, months):
     cd_account.set_interest(interest_earned)
     return updated_balance, interest_earned
 ```
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### savings_account.py
 
 This file contains the `create_savings_account` function, which is similar to the CD account function but for savings accounts.
@@ -84,6 +96,9 @@ def create_savings_account(balance, interest_rate, months):
     savings_account.set_interest(interest_earned)
     return updated_balance, interest_earned
 ```
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### customer_banking.py
 
 This is the main file that brings everything together and provides a user interface for the banking system.
@@ -106,6 +121,8 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### 🚀 **Usage**
 
