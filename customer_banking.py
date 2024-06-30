@@ -32,9 +32,10 @@ def main():
 
 def check_valid_interest(question):
     """
-    Takes a question promps the user with the question and if the question is a
-    percentage either in decimal format (0.10) or percentage format (10%) and
-    the input converted is under 100% will the input be accepted.
+    This function prompts the user with a given question and accepts input in either decimal
+    format (e.g., 0.10) or percentage format (e.g., 10%). The input is then validated to
+    ensure that it represents a percentage less than or equal to 100%. If the input meets these
+    criteria, it will be accepted.
     """
     while True:
         user_input = input(question).strip()
@@ -58,9 +59,9 @@ def check_valid_interest(question):
 
 def check_valid_num(question, type='float'):
     """
-    Takes a question and a data type as input. Prompts user with question
-    and only accepts input if it corresponds to the data type and is greater
-    than 0.
+    This function takes a question and a data type as input. It prompts the user
+    with the given question and only accepts input if it matches the specified
+    data type and is greater than 0.
     """
     while True:
         number = input(question)
