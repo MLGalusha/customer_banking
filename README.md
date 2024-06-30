@@ -14,7 +14,7 @@
 
 ## 🌟 **Overview**
 
-This project implements a simple banking system that allows users to create and manage savings and CD (Certificate of Deposit) accounts. It demonstrates object-oriented programming principles and modular design in Python.
+This code implements a simple banking system that allows users to create and manage savings and CD accounts. It prompts users for account details, calculates interest based on balance, rate, and term, and displays updated balances and earned interest for both account types.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
