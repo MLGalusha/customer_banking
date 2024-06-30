@@ -13,7 +13,7 @@ def main():
     updated_savings_balance, savings_interest_earned = create_savings_account(savings_balance, savings_interest, savings_maturity)
 
     # Print savings account details
-    print(f"\nSavings Account:")
+    print("\nSavings Account:")
     print(f"Interest earned: ${savings_interest_earned:,.2f}")
     print(f"Updated balance: ${updated_savings_balance:,.2f}")
 
@@ -26,11 +26,16 @@ def main():
     updated_cd_balance, cd_interest_earned = create_cd_account(cd_balance, cd_interest, cd_maturity)
 
     # Print CD account details
-    print(f"\nCD Account:")
+    print("\nCD Account:")
     print(f"Interest earned: ${cd_interest_earned:,.2f}")
     print(f"Updated balance: ${updated_cd_balance:,.2f}")
 
 def check_valid_interest(question):
+    """
+    Takes a question promps the user with the question and if the question is a
+    percentage either in decimal format (0.10) or percentage format (10%) and
+    the input converted is under 100% will the input be accepted.
+    """
     while True:
         user_input = input(question).strip()
 
@@ -45,13 +50,18 @@ def check_valid_interest(question):
             if 0 <= interest < 1:
                 return interest
             else:
-                print("Invalid input. Please enter a valid interest rate (0-100% or 0-1).\n")
+                print("Invalid input. Please enter a valid interest rate (0 - 99% or 0 - 0.99).")
         except ValueError:
-            print("Invalid input. Please enter a valid number.\n")
+            print("Invalid input. Please enter a valid number.")
 
         print("For example: '10%' or '0.10'\n")
 
 def check_valid_num(question, type='float'):
+    """
+    Takes a question and a data type as input. Prompts user with question
+    and only accepts input if it corresponds to the data type and is greater
+    than 0.
+    """
     while True:
         number = input(question)
         if number.isdigit() and int(number) > 0:
@@ -60,6 +70,7 @@ def check_valid_num(question, type='float'):
             else:
                 return int(number)
         print("Invalid input. Please enter a valid number.\n")
+
 
 if __name__ == "__main__":
     main()

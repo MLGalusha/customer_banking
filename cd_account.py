@@ -1,10 +1,10 @@
 """Import the Account class from the Account.py file."""
-from Account import Account
+from account import Account
 
 def create_cd_account(balance, interest_rate, months):
     """Creates a CD account, calculates interest earned, and updates the account balance."""
     # Create an instance of the `Account` class
-    cd_account = Account(balance, 0)
+    cd_account = Account(balance, interest_rate)
 
     # Calculate interest earned
     interest_earned = balance * (interest_rate * months/12)
