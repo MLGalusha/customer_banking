@@ -1,15 +1,14 @@
 # 🏦 Banking System Project
 
 ## 📚 Table of Contents
-- [Overview](#Overview)
-- [File Structure](#File-Structure)
-- [Detailed Explanation](#Detailed-Explanation)
+- [Overview](#-overview)
+- [File Structure](-file-structure)
+- [Detailed Explanation](#-detailed-explanation)
   - [account.py](#accountpy)
   - [cd_account.py](#cd_accountpy)
   - [savings_account.py](#savings_accountpy)
   - [customer_banking.py](#customer_bankingpy)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Usage](#-usage)
 
 ## 🌟 **Overview**
 
